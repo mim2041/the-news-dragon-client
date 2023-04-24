@@ -6,7 +6,7 @@ import Marquee from "react-marquee-slider";
 
 const Header = () => {
     return (
-        <Container>
+        <Container className='mt-4'>
             <div className="text-center">
                 <img src={logo} alt="" />
                 <p className="text-secondary"><small></small>Journalism Without Fear or Favour</p>
